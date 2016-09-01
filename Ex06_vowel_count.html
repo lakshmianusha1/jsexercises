@@ -5,7 +5,7 @@
 
 <script>
 
-function vowel_count(str){
+function vowel_cons_count(str){
 
 var vowels = 'aeiouAEIOU';
 var count = 0 ; 
@@ -14,9 +14,15 @@ if (vowels.indexOf(str[i]) !== -1){
 count += 1;
 }
 }
-return count;
+return 'the vowel count is ' + count + 'the consonants count is ' + (str.length - count) ;
 }
+// dom manippulation 
 
+// add a button "vowel count"
+
+// count the consonants
+
+// attach it to the document
 </script>
 
 </body>
